@@ -1,0 +1,76 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "0a9319b3-74da-4853-a20a-54b4c7d9d8d9")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 111.76 92.71)
+		(size 36.83 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "773452a2-93a6-4dc3-91d9-b8b4db71d0ba")
+		(property "Sheetname" "LED Array"
+			(at 111.76 91.9984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led_array.kicad_sch"
+			(at 111.76 103.4546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED_INPUT" input
+			(at 111.76 97.79 180)
+			(uuid "7056b07c-e070-422f-b5c2-c3636037cafd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED_OUTPUT" output
+			(at 148.59 97.79 0)
+			(uuid "f3d14b9b-4f5c-4272-ba6f-afe60cc80f11")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "lightwall-module"
+				(path "/0a9319b3-74da-4853-a20a-54b4c7d9d8d9"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
